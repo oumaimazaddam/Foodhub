@@ -1,0 +1,93 @@
+/* Style général */
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Effet de zoom lors du changement */
+.login-container:hover {
+  transform: scale(1.02);
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Bouton principal */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff0056;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #5400e6;
+  transform: scale(1.05);
+}
+
+/* Animation pour le changement de mode */
+.toggle-text {
+  color: #ff0056;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.toggle-text:hover {
+  color: #e6004c;
+}
+
+/* Section Réseaux sociaux */
+.social-login {
+  margin-top: 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-btn {
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Couleurs des boutons sociaux */
+
+
+
+.social-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
